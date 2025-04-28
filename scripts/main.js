@@ -1,4 +1,4 @@
-import { Rdm, Alphabets } from "/scripts/func.js";
+import { Rdm, Alphabets } from "./scripts/func.js";
 
 const word = document.getElementById("word");
 const ans = document.getElementById("answer");
