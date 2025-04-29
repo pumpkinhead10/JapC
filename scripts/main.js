@@ -33,5 +33,8 @@ let submit = () => {
 }
 
 smt.onclick = submit;
-next.onclick = generateWrd
+next.onclick = () => {
+    description.innerHTML = '';
+    generateWrd();
+}
 window.onload = generateWrd
