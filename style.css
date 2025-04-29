@@ -29,7 +29,7 @@ html, body {
 #btn {
     margin-top: 10px;
 }
-#main div button {
+#main div button, #description span {
     font-family: "Tagesschrift", system-ui;
 }
 
