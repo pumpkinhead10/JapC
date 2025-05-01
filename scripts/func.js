@@ -1,5 +1,6 @@
 const k = "katakana"
 const h = "hiragana"
+const b = "both hiragana/katakana"
 
 const Alphabets = {
     サ: ["sa", k],
@@ -35,15 +36,26 @@ const Alphabets = {
     ハ: ["ha", k],
     ヒ: ["hi", k],
     フ: ["fu", k],
-    ヘ: ["he", k],
+    ヘ: ["he", b],
     ホ: ["ho", k],
 
     は: ["ha", h],
     ひ: ["hi", h],
     ふ: ["fu", h],
-    へ: ["he", h],
-    ほ: ["ho", h]
+    へ: ["he", b],
+    ほ: ["ho", h],
 
+    ま: ["ma", h],
+    み: ["mi", h],
+    む: ["mu", h],
+    め: ["me", h],
+    も: ["mo", h],
+
+    マ: ["ma", k],
+    ミ: ["mi", k],
+    ム: ["mu", k],
+    メ: ["me", k],
+    モ: ["mo", k]
 }
 
 let Rdm = () => {
