@@ -1,4 +1,4 @@
-import { Rdm, Alphabets } from "https://pumpkinhead10.github.io/JapC/scripts/func.js";
+import { Rdm, Alphabets } from "./func.js";
 
 const word = document.getElementById("word");
 const ans = document.getElementById("answer");
