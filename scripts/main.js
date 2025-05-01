@@ -15,7 +15,7 @@ let generateWrd = () => {
 let submit = () => {
     console.log("Ans - ", ans.value)
     let correct = Alphabets[key];
-    if(ans.value.toLowerCase() == correct[0])
+    if(ans.value.toLowerCase().trim() == correct[0])
     {
         description.innerHTML = `
         <span style="color: green">Correct!</span><br>
